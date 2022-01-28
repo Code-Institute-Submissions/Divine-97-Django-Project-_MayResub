@@ -9,18 +9,20 @@ body {
     color: #4A4A4F;
 }
 
-h1 {
+h1, h2 {
     font-family:'Times New Roman', Times, serif;
     font-size: 10;
     color: deeppink;
 }
 
 .navbar {
-    min-height: 90px;
+    min-height: 70px;
 }
+
 
 .navbar-nav .nav-link {
     text-transform: uppercase;
+
 }
 
 
@@ -30,14 +32,6 @@ h1 {
 
 .thin {
     font-weight: 300;
-}
-
-.light-bg {
-    background-color: #fff;
-}
-
-.dark-bg {
-    background-color: #445261;
 }
 
 .main-bg {
@@ -51,6 +45,7 @@ h1 {
 
 .image-container {
     position: relative;
+    margin: 10px;
 }
 
 .image-flash {
@@ -122,7 +117,7 @@ h1 {
 
 .post-subtitle {
     margin-left: 5%;
-    color: lightgray;
+    color: black;
 }
 
 .btn-signup {
@@ -143,7 +138,7 @@ h1 {
 
 .link:hover,
 .link:active {
-    color: #445261;
+    color: black;
     text-decoration: underline;
 }
 
