@@ -9,21 +9,46 @@ body {
     color: #4A4A4F;
 }
 
-h1, h2 {
+h1, h2, h5 {
     font-family:'Times New Roman', Times, serif;
     font-size: 10;
-    color: deeppink;
+    color: ;
+}
+
+.about-us{
+    display: inline flex;
+}
+
+img {
+    margin: 20px
+}
+
+.about-title{
+    text-align: center;
+    margin-top: 30px;
+    letter-spacing: 4px;    
+}
+
+.about-text {
+    margin: 22px
 }
 
 .navbar {
     min-height: 70px;
 }
 
+img {
+    width: 45%;
+}
+    
 
 .navbar-nav .nav-link {
     text-transform: uppercase;
 }
 
+.nav-item a:hover {
+    border-bottom: 2px solid #3a3a3a;
+}
 
 .red-o {
     color: #E84610;
@@ -34,7 +59,7 @@ h1, h2 {
 }
 
 .main-bg {
-    background-color:plum;
+    background-color: #ffc107;
 }
 
 .card {
@@ -52,11 +77,11 @@ h1, h2 {
     bottom: 3%;
     min-width: 30%;
     left: -2px;
-    background-color:rosybrown;
+    background-color: #fff;
 }
 
 .author {
-    color: white;
+    color: #000;
     margin: 4px;
     text-transform: uppercase;
 }

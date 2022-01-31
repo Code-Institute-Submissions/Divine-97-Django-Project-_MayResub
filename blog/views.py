@@ -80,6 +80,6 @@ class PostLike(View):
         return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
 
-def about(request):
+def home(request):
     """ A view to return the about page """
     return render(request, 'about.html')         

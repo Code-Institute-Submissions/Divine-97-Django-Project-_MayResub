@@ -39,28 +39,26 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" href="{% url 'about' %}">About</a>
+                        <a class="nav-link active" aria-current="page" href="{% url 'home' %}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{% url 'recipes' %}">Recipes</a>
+                        <a class="nav-link active" href="{% url 'recipes' %}">Recipes</a>
                     </li>
 
                     {% if user.is_authenticated %}
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'account_logout' %}">Logout</a>
+                        <a class="nav-link text-dark" href="{% url 'account_logout' %}">Logout</a>
                     </li>
                     {% else %}
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'account_signup' %}">Register</a>
+                        <a class="nav-link text-dark" href="{% url 'account_signup' %}">Register</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'account_login' %}">Login</a>
+                        <a class="nav-link text-dark" href="{% url 'account_login' %}">Login</a>
                     </li>
                     {% endif %}
                 </ul>
-                <span class="navbar-text text-muted">
                 
-                </span>
             </div>
         </div>
     </nav>
@@ -92,7 +90,7 @@
     <!-- Footer -->
     <footer class="footer mt-auto py-3 dark-bg">
         <p class="m-0 text-center text-white"></p>
-        <p class="m-0 text-center text-white">Follow us: 
+        <p class="m-0 text-center text-dark">Follow us: 
             <a href="http://facebook.com" target="_blank" rel="noopener"
             aria-label="Visit our Facebook page(opens in a new tab)"><i class="fab fa-facebook"></i></a>
             <a href="https://twitter.com" target="_blank" rel="noopener"
