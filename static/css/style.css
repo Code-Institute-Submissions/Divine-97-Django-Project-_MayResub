@@ -37,9 +37,7 @@ img {
     min-height: 70px;
 }
 
-img {
-    width: 45%;
-}
+
     
 
 .navbar-nav .nav-link {
@@ -177,4 +175,26 @@ img {
     color: #E84610;
     background: transparent;
     border: none;
+}
+
+#register-page, #login-page, #about-page{ 
+    background-color: #445261;
+    color: #fff;
+    border-radius: 25px;
+    width: 800px;
+    max-width: 80%;
+    padding: 25px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#about-page {
+    background-color:;
+    color: #fff;
+    border-radius: 25px;
+    width: 800px;
+    max-width: 80%;
+    padding: 25px;
+    margin-top: 10px;
+    margin-bottom: 100px;
 }
