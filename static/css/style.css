@@ -8,16 +8,19 @@
     font-weight: 700;
     color: #4A4A4F;
 }
+/* h1 h2 h5 */
 
 h1, h2, h5 {
     font-family:'Times New Roman', Times, serif;
-    font-size: 10;
+    font-size: 30px;
     color: #000;
 }
 
 img {
     margin: 22px;
 }
+
+/* nav bar links */
 
 .navbar {
     min-height: 70px;
@@ -31,7 +34,7 @@ img {
     border-bottom: 2px solid #3a3a3a;
 }
 
-
+/* like button */
 .red-o {
     color: #E84610;
 }
@@ -40,7 +43,7 @@ img {
     font-weight: 300;
 }
 
-
+/* post image section */
 .card {
     border: none;
     background-color: transparent;
@@ -122,6 +125,7 @@ img {
     margin-left: 5%;
     color: black;
 }
+/* button section */
 
 .btn-signup {
     background-color: #23BBBB;
@@ -158,6 +162,8 @@ img {
     border: none;
 }
 
+/* register and login pages */
+
 #register-page, #login-page { 
     background-color: #445261;
     color: #fff;
@@ -168,6 +174,8 @@ img {
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
+/* about page */
 
 #about-page {
     color: #000;
@@ -180,4 +188,14 @@ img {
 } 
 .about-text {
     color: #000;
+}
+
+/* media query for small devices */
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .container {
+        max-height: 100%;
+        display: block;
+    }
 }

@@ -1,4 +1,6 @@
 BAKEAHOLIC BLISS
+<img src="https://res.cloudinary.com/dpm3pthvb/image/upload/v1643919077/static/css/Image_03-02-2022_at_20.07_y0ukvs.jpg">
+
 Description
 This is a website for baking recipes that provides users with different recipes including Vegan and Gluten-free. The blog allows users to view and interact by liking and commenting on posts by signing up and creating an account. The aim of this blog is to provide content/posts to help baking easy for the users. The blog provides all the ingredients and steps required for the baking process.
 
