@@ -1,3 +1,6 @@
+.main-bg {
+    background-color: #ffc107;
+}
 
 .brand {
     font-family: Lato, sans-serif;
@@ -13,7 +16,7 @@ h1, h2, h5 {
 }
 
 img {
-    margin: 22px%;
+    margin: 22px;
 }
 
 .navbar {
@@ -27,6 +30,7 @@ img {
 .nav-item a:hover {
     border-bottom: 2px solid #3a3a3a;
 }
+
 
 .red-o {
     color: #E84610;
@@ -166,8 +170,7 @@ img {
 }
 
 #about-page {
-    background-color: ;
-    color: #fff;
+    color: #000;
     border-radius: 25px;
     width: 800px;
     max-width: 80%;

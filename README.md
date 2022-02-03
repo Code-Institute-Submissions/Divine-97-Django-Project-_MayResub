@@ -16,6 +16,14 @@ This page consits of 9 recipes, at the top of the page i have a welcoming messag
 
 Blog Post
 
-Register
 
-This page is accessed from the nav bar by clicking on the Register page, once the page loads, users have a choice to sign up to the website.
+
+Register Page
+This page is accessed from the nav bar by clicking on the Register page, once the page loads, users have a choice to sign up to the website. Users will be asked to provide their user name, an email which is optional, and a password will be rquired to sign up to the website.
+
+Login Page
+This page is also accessed from the nav bar by clicking on the Login page. Existing users can enter their username and password and click on the login button. Once this is done, the user is then taken to the homepage and an alert pops up showing the user has successfully signed in. If the user inputs the wrong username or password, a message will displayed saying that the username or password is incorrect.
+
+Logout Page
+The page is accessed from the nav bar only if the user is logged in. Once the users clicks on the logout button, they are directed to a the sign out page to confirm if they want to log out.  Once the user is signed out they are redirected to the home page an alert will appear showing that the user has looged out
+ 
