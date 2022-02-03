@@ -26,4 +26,25 @@ This page is also accessed from the nav bar by clicking on the Login page. Exist
 
 Logout Page
 The page is accessed from the nav bar only if the user is logged in. Once the users clicks on the logout button, they are directed to a the sign out page to confirm if they want to log out.  Once the user is signed out they are redirected to the home page an alert will appear showing that the user has looged out
- 
+
+Footer
+All icons are include links to relevant social media which are at the bottom of every page and will open a new tab once clicked on. All icon links work on all pages.
+
+Oher Features
+Admin can approve and delete comments on posts that users choose to comment on. Also only the admin can create posts on the blog.
+
+Features Left to Implement
+In the future I would like users to edit and delete their comments.
+I also would like to notify users who already have signed up to get alert either through email when theres a new post/recipe. 
+I would also like users to be able to post their own recipes but with the admins approval just to ensure the content is appropriate for the website.
+
+Technologies Used
+HTML
+CSS
+PYTHON
+JAVASCRIPT
+HEROKU POSTGRESS 
+Font Awesome
+Cloudinary
+
+Testing 
