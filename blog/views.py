@@ -6,7 +6,7 @@ from .forms import CommentForm
 
 
 class PostList(generic.ListView):
-    model = Post 
+    model = Post
     queryset = Post.objects.filter(status=1).order_by("-created_on")
     template_name = "index.html"
     paginate_by = 6
@@ -32,7 +32,7 @@ class PostDetail(View):
                 "liked": liked,
                 "comment_form": CommentForm()
             },
-        )   
+        )
 
     def post(self, request, slug, *args, **kwargs):
 
@@ -54,7 +54,6 @@ class PostDetail(View):
         else:
                 comment_form = CommentForm()
 
-
         return render(
             request,
             "post_detail.html",
@@ -65,7 +64,8 @@ class PostDetail(View):
                 "liked": liked,
                 "comment_form": CommentForm()
             },
-        ) 
+        )
+
 
 class PostLike(View):
 
@@ -82,4 +82,5 @@ class PostLike(View):
 
 def home(request):
     """ A view to return the about page """
-    return render(request, 'about.html')         
+    return render(request, 'about.html')
+          
