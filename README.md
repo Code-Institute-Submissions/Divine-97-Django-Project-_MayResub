@@ -1,49 +1,52 @@
-BAKEAHOLIC BLISS
+**BAKEAHOLIC BLISS**
 <img src="https://res.cloudinary.com/dpm3pthvb/image/upload/v1643919077/static/css/Image_03-02-2022_at_20.07_y0ukvs.jpg">
 
-DESCRIPTION
+**DESCRIPTION**
 
 This is a website for baking recipes that provides users with different recipes including Vegan and Gluten-free. The blog allows users to view and interact by liking and commenting on posts by signing up and creating an account. The aim of this blog is to provide content/posts to help baking easy for the users. The blog provides all the ingredients and steps required for the baking process.
 
 Check out the website here.
 
-USER STORIES
+**USER STORIES**
 
 Site User Goals:
 
-As a Site User I can like or unlike a post so that I can interact with the content
-As a Site User I can leave comments on a post so that I can be involved in the conversation
-As a Site User I can register an account so that I can comment and like
-As a Site User/Admin I can view comments on an individual post so that I can read the conversation
-As a Site User/Admin I can view the number of likes on each post so that I can see which is the most popular or viral
-As a Site User I can view a list of posts so that I can select one to read
-As a Site User I can learn more about the site the purpose of the web app
+1. As a Site User I can like or unlike a post so that I can interact with the content
+2. As a Site User I can leave comments on a post so that I can be involved in the conversation
+3. As a Site User I can register an account so that I can comment and like
+4. As a Site User/Admin I can view comments on an individual post so that I can read the conversation
+5. As a Site User/Admin I can view the number of likes on each post so that I can see which is the most popular or viral
+6.As a Site User I can view a list of posts so that I can select one to read
+7. As a Site User I can learn more about the site the purpose of the web app
 
 
 Site Owner Goals:
 
-As a Site Admin I can approve or disapprove comments so that I can filter out objectionable comments
-As a Site Admin I can create draft posts so that I can finish writing the content later
-As a Site Admin I can create, read, update and delete posts so that I can manage my blog content
-As a Site User/Admin I can view comments on an individual post so that I can read the conversation
-As a Site User/Admin I can view the number of likes on each post so that I can see which is the most popular or viral
+1. As a Site Admin I can approve or disapprove comments so that I can filter out objectionable comments
+2. As a Site Admin I can create draft posts so that I can finish writing the content later
+3. As a Site Admin I can create, read, update and delete posts so that I can manage my blog content
+4. As a Site User/Admin I can view comments on an individual post so that I can read the conversation
+5. As a Site User/Admin I can view the number of likes on each post so that I can see which is the most popular or viral
 
 
-FEATURES
+**FEATURES**
 
-* NAVIGATION BAR
+**NAVIGATION BAR**
+
 The nav bar is featured on all pages of the website and is fixed to the top right. When clicked on, each link will bring the user to the respective page, and will also show a line below the links so they are visible whe you hover over them.
 
-* HOME PAGE
+**HOME PAGE**
 The home page has an image on the right side of the page which is one of the recipes i have on the website, and it also has the the heading Bakeaholic Bliss. The home page is basically a page that i wanted to just talk about what the users should expect of the blog, basically just a brief explanation about what the blog is about and letting them know that they need to created an account or register so they are able to like and comment on our posts.
 
-* RECIPES PAGE
+**RECIPES PAGE**
+
 This page consits of 9 recipes, at the top of the page i have a welcoming message to the page. As each page can displays 6 posts only, users can navigate to the "NEXT" page to view more recipes. There is also a "PREV" button which users can alternatively click on if they want to go back and look at the previous recipes. Each post is displayed in a card style with an image, author, date, title and like count. A Style has been applied so the user can hover over the text for the posts which will underline to indicate that this can be selected. Once selected the users is able to see all information about ingredients and steps to take when baking.
 
-* BLOG POST
+**BLOG POST**
 
 Accessed once the user selects a recipe post from the 'Home' or 'Search' page. Recipe title and image displayed at the top 
 Content is then followed by the ingredient list and method steps. Further below is the comment section which users can view even if not logged in. Comment section is available and displayed for logged in users who can submit a comment. This is then sent for approval which is a feature only the Admin can access. Alert is displayed to indicate the comment has been sent for approval. Approved comments can be viewed on the post.
+In addition to this, there is also a delete button which users can delete their comment if they wish, once the admin approves their comment. This at least give the user to delete their post if they have made a mistake.
 
 
 
@@ -105,9 +108,10 @@ The admin section is accessed by entering 'admin/' at the end of the url for the
 
 The site admin has various actions available to be able to manage the website such as:
 
-Delete users
-Create/edit/delete posts and drafts
-Approve and delete comments
+* Delete users
+* Create/edit/delete posts and drafts
+* Approve and delete comments
+
 From the home section of the admin page, by selecting the Users link under 'Authentication and Authorization' the admin can view the lists of users currently signed up to the website. The admin also has the permission to delete the users by selecting the username and from the drop down selecting the delete user option.
 
 From the home section, the admin can also view comments added by users some of which are pending approval. This is accessed from the Comments link under the 'Blog' section. Approved comments are indicated with a green tick under the Approved column. Comments pending approval have the red cross icon. To approve the comment the admin has to tick the unapproved comment from the list, then from the action drop down select the 'Approve comments' option. By clicking Go button this will proceed to carry out the action to approve the selected comment. Once the comment has been approved the red cross icon will now become a green tick icon to indicate that the comment has now been approved. The approved comment can also be viewed on the website now.
@@ -143,21 +147,21 @@ The project was developed using GitPod and was deployed via the GitHub repositor
 
 The following steps were followed to deploy this project:
 
-From the Heroku dashboard, select 'New' in the top right-hand corner.
-Click 'Create new app'.
-Enter the app name and choose region as Europe.
-Click 'Create app'.
-Select the 'Settings' tab, and scroll down to 'Buildpacks'.
-Add 'Python' and save changes.
-Scroll down to 'Config Vars' section, and add the 'KEY' and 'VALUE' for the CLOUDINARY_URL, DATABASE_URL and SECRET_KEY to run the app.
-At the top of the page, click on the 'Deploy' section.
-Select Github as deployment method.
-Select 'Connect to Github', and locate the repository name and click on 'Connect' to link my Heroku app to my Github repository code.
-To add the Postgres Database, click on the 'Resources' tab.
-Under Add-ons, search for 'Heroku Postgres', click on the search result for this.
-Select the 'Hobby Dev-Free' option and click submit order form which will add this to the Add-ons section.
-Scroll further down, select 'Enable Automatic Deploys' and then select 'Deploy Branch' to deploy project.
-After it has successfully deployed a 'view' button appears on screen and when clicked opens the deployed application.
+1. From the Heroku dashboard, select 'New' in the top right-hand corner.
+2. Click 'Create new app'.
+3. Enter the app name and choose region as Europe.
+4. Click 'Create app'.
+5. Select the 'Settings' tab, and scroll down to 'Buildpacks'.
+6. Add 'Python' and save changes.
+7. Scroll down to 'Config Vars' section, and add the 'KEY' and 'VALUE' for the CLOUDINARY_URL, DATABASE_URL and SECRET_KEY to run the app.
+8. At the top of the page, click on the 'Deploy' section.
+9. Select Github as deployment method.
+10. Select 'Connect to Github', and locate the repository name and click on 'Connect' to link my Heroku app to my Github repository code.
+11. To add the Postgres Database, click on the 'Resources' tab.
+12. Under Add-ons, search for 'Heroku Postgres', click on the search result for this.
+13. Select the 'Hobby Dev-Free' option and click submit order form which will add this to the Add-ons section.
+14. Scroll further down, select 'Enable Automatic Deploys' and then select 'Deploy Branch' to deploy project.
+15. After it has successfully deployed a 'view' button appears on screen and when clicked opens the deployed application.
 
 
 CREDITS
