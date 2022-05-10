@@ -1,8 +1,10 @@
-from django.shortcuts import render, get_object_or_404, reverse
+from django.shortcuts import render, get_object_or_404, reverse, redirect
 from django.views import generic, View
+from django.contrib import messages
 from django.http import HttpResponseRedirect
-from .models import Post
+from .models import Post, Comment
 from .forms import CommentForm
+
 
 
 class PostList(generic.ListView):
@@ -79,6 +81,18 @@ class PostLike(View):
 
         return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
+def delete_comment(request):
+    id = request.POST['comment_id']
+    if request.method == 'POST':
+        comment = get_object_or_404(Comment, id=id)
+        try:
+            comment.delete()
+            messages.success(request, 'You have successfully deleted the comment')
+
+        except:
+            messages.warning(request, 'The comment could not be deleted.')
+
+        return redirect('recipes')
 
 def home(request):
     """ A view to return the about page """
