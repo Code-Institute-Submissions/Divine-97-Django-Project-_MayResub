@@ -9,6 +9,10 @@ Check out the website [here.](https://cake-recipe-blog.herokuapp.com/)
 
 **USER STORIES**
 
+Please find the User stories [here.](https://github.com/Divine-97/Django-Project-/issues)
+
+I also have the site user goals and user owner goals just below here.
+
 Site User Goals:
 
 1. As a Site User I can like or unlike a post so that I can interact with the content
