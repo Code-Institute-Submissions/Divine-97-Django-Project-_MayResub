@@ -5,7 +5,7 @@
 
 This is a website for baking recipes that provides users with different recipes including Vegan and Gluten-free. The blog allows users to view and interact by liking and commenting on posts by signing up and creating an account. The aim of this blog is to provide content/posts to help baking easy for the users. The blog provides all the ingredients and steps required for the baking process.
 
-Check out the website here.
+Check out the website [here.](https://cake-recipe-blog.herokuapp.com/)
 
 **USER STORIES**
 
